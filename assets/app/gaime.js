@@ -8,7 +8,7 @@ let addbtn = document.getElementById("ak-btn")
 addbtn.addEventListener("click", ()=> {
 postProducts();
 
-window.location.href =""
+window.location.href ="index.html"
 
 
 })
