@@ -1,1 +1,0 @@
-const API_URL = 'https://dependable-data-380220-h6ezabenkq-el.a.run.app/'
