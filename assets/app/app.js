@@ -159,6 +159,7 @@ function popEdit(){
 
 
 
+<<<<<<< HEAD
 
 function deleteCategories(id) {
     fetch(`https://dependable-data-380220-h6ezabenkq-el.a.run.app/api/products/${id}`, {
@@ -170,3 +171,17 @@ function deleteCategories(id) {
       }
     });
   }
+=======
+var fil=document.querySelector('.es-filter');
+var fils=document.querySelector('.es-filters');
+
+
+fils.addEventListener('click', function(){
+    if(fil.style.display=="flex"){
+        fil.style.display="none"
+    }else{
+        fil.style.display="flex"
+    }
+     
+})
+>>>>>>> 8af38b48540ebae6d54fd16ae54409889ef11731
