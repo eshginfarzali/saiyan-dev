@@ -13,8 +13,6 @@
   width: 80%;
   margin: 58px;
 }
-.es-filter {
-}
 
 .ih-profile {
   align-items: center;
@@ -152,7 +150,7 @@
 
 .es-filters {
   cursor: pointer;
-  width: 97px;
+  max-width: 150px;
   border: 1px solid #266aeb;
   padding: 15px;
   border-radius: 15px;
@@ -304,3 +302,4 @@
             padding: 34px 0 219px;;
 
     }
+  }
