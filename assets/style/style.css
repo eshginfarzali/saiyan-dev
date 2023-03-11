@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+}
+
+.main-c {
+  margin: 30px;
+  display: flex;
+  width: 100%;
+}
+.es-main {
+  width: 80%;
+  margin: 58px;
+}
+.es-filter {
+}
+
+.ih-profile {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.ih-profile svg {
+  margin: 0 10px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.ih-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 30px 219px;
+  gap: 74px;
+  width: 97px;
+  height: 937px;
+  background: #266aeb;
+  border-radius: 16px;
+}
+.ih-icon-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  width: 58px;
+  height: 562px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.ih-current-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  gap: 10px;
+
+  width: 58px;
+  height: 58px;
+
+  /* Pasha Life primary/0 */
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.es-main-header h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.es-s {
+  position: relative;
+}
+.es-s input {
+  width: 447px;
+  height: 40px;
+  left: 205px;
+  top: 206px;
+
+  background: #fafcfe;
+  border: 1px solid #edeff1;
+  border-radius: 10px;
+  padding: 10px 0 10px 42px;
+}
+.es-s div {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+}
+.es-right > div > div {
+  max-height: 50px;
+}
+.es-filter {
+  display: none;
+  justify-content: space-between;
+  margin: 50px 0;
+  max-width: 500px;
+}
+.es-filter-tab {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.es-filter-tab span {
+  padding-right: 24px;
+}
+.es-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.es-main-header {
+  border: 1px solid gray;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  padding: 50px 20px;
+  margin-top: 46px;
+}
+.es-right > div {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.es-sifirla {
+  color: #7c818d;
+}
+
+.es-filters {
+  cursor: pointer;
+  width: 97px;
+  border: 1px solid #266aeb;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.es-new-qaime button {
+  background: #266aeb;
+  border-radius: 8px;
+  height: 100%;
+  outline: none !important;
+  border: none;
+  padding: 13px;
+}
+.es-new-qaime span {
+  color: white;
+}
+.ul-head {
+  background-color: #fafafc;
+  color: #6b707c;
+}
+.ul-head > span > span {
+  padding-right: 4px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.ih-numbers {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.ih-numbers span {
+  width: 22px;
+  height: 18px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #5f646e;
+  flex: none;
+  order: 0;
+  flex-grow: ;
+}
+
+.ih-delete-popup {
+  position: relative;
+  z-index: 100;
+  width: 164px;
+  height: 152px;
+  display: none;
+}
+.ih-pop-inside {
+  position: absolute;
+  width: 164px;
+  height: 170px;
+  left: 0px;
+  top: 8px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  font-size: 16px;
+}
+.ih-pop-rec {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 122px;
+  top: 4.49px;
+
+  background: #ffffff;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
+.ih-btn {
+  background: white;
+  outline: none;
+  border: none;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
