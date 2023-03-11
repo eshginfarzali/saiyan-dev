@@ -129,7 +129,7 @@ function getProducts() {
                   >
                     Imtina
                   </button>
-                  <button type="button" class="btn btn-primary">Sil</button>
+                  <button type="button" class="btn btn-primary" onclick ="deleteCategories('${e._id}')">Sil</button>
                 </div>
               </div>
             </div>
@@ -159,6 +159,19 @@ function popEdit(){
 
 
 
+<<<<<<< HEAD
+
+function deleteCategories(id) {
+    fetch(`https://dependable-data-380220-h6ezabenkq-el.a.run.app/api/products/${id}`, {
+      method: "DELETE",
+    }).then((res) => {
+      if (res.status === 200) {
+      getProducts();
+      window.location.reload();
+      }
+    });
+  }
+=======
 var fil=document.querySelector('.es-filter');
 var fils=document.querySelector('.es-filters');
 
@@ -171,3 +184,4 @@ fils.addEventListener('click', function(){
     }
      
 })
+>>>>>>> 8af38b48540ebae6d54fd16ae54409889ef11731
