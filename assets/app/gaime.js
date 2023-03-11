@@ -1,6 +1,6 @@
 let gaimein = document.getElementById ("ak-gaime-in")
-let stockin = document.getElementById("ak-stock")
-let pricein = document.getElementById("ak-price")
+let stockin = document.getElementById("ak-stockIM")
+let pricein = document.getElementById("ak-priceIM")
 
 let addbtn = document.getElementById("ak-btn")
 
@@ -181,8 +181,6 @@ function postProducts() {
   })
     .then((res) => {
       if (res.status === 201) {
-        ul.innerHTML = "";
-        // input.value = "";
         getProducts();
       }
     })
